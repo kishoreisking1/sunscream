@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/sunscream.png";
 
 function Navbor() {
   return (
-    <nav className="Navbor">
-      <div className="leftSide">
-        <img src={logo} alt="Logo" />
+    <nav className="navbar">
+      <div className="logo">
+        ☀ SUNSCREAM
       </div>
 
-      <div className="rightSide">
+      <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/menu">Products</Link>
         <Link to="/about">About</Link>
+        <Link to="/faq">FAQ</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </nav>
   );
