@@ -1,7 +1,14 @@
 function Home() {
   return (
-    <div className="page">
-      <h1>Home Page</h1>
+    <div className="hero">
+      <h1>Glow Naturally</h1>
+      <p>
+        Premium skincare and beauty products designed to enhance your natural beauty.
+      </p>
+
+      <button className="hero-btn">
+        Shop Now
+      </button>
     </div>
   );
 }

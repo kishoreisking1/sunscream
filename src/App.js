@@ -1,12 +1,15 @@
-import './App.css';
-import Navbor from './components/Navbor';
+import "./App.css";
+import Navbor from "./components/Navbor";
 
-import Home from './page/Home';
-import Menu from './page/Menu';
-import About from './page/About';
+import Home from "./page/Home";
+import Menu from "./page/Menu";
+import About from "./page/About";
 
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -17,7 +20,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
-        
       </Routes>
     </Router>
   );
