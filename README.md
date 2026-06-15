@@ -46,7 +46,7 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/cosmetics.git
+https://github.com/kishoreisking1/sunscream.git
 ```
 
 2. Navigate to the project folder
@@ -92,7 +92,7 @@ http://localhost:3000
 
 ## Author
 
-Kishore King
+Kishore 
 
 ## License
 
